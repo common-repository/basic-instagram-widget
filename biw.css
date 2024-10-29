@@ -1,0 +1,39 @@
+/**
+ * Basic Instagram Widget
+ */
+ 
+.biw-items {
+	margin:10px -5px !important;
+	padding:0 !important;
+	zoom: 1;
+}
+
+.biw-items:before, .biw_items:after { content: ""; display: table; }
+.biw-items:after { clear: both; }
+
+.biw-items * {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.biw-items li {
+	padding:5px !important;
+	margin:0 !important;
+	background:none !important;
+	border:none !important;
+	list-style:none !important;
+	float:left;
+}
+
+.biw-items img {
+	display:block;
+	width:100%;
+	height:auto;
+}
+
+.biw-columns-1 li { width:100%; }
+.biw-columns-2 li { width:50%; }
+.biw-columns-3 li { width:33.333333%; }
+.biw-columns-4 li { width:25%; }
+.biw-columns-5 li { width:20%; }
